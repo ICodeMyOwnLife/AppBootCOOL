@@ -105,6 +105,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Libraries\DotNet\CB.Model\CB.Model.Common\CB.Model.Common.csproj">
+      <Project>{33a5df99-1312-4023-a6ef-eabb9848f5a6}</Project>
+      <Name>CB.Model.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AppBootContexts\AppBootContexts.csproj">
       <Project>{f545252c-142e-492d-b9fe-a555d8e83abf}</Project>
       <Name>AppBootContexts</Name>

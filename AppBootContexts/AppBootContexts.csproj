@@ -46,7 +46,21 @@
     <Compile Include="AppBootContext.cs" />
     <Compile Include="AppBootContextInitializer.cs" />
     <Compile Include="ApplicationInfoMap.cs" />
+    <Compile Include="FileDataMap.cs" />
     <Compile Include="FileInfoMap.cs" />
+    <Compile Include="FileVersionMap.cs" />
+    <Compile Include="IAppFileDataAccess.cs" />
+    <Compile Include="IApplicationDataAccess.cs" />
+    <Compile Include="IFileDataDataAccess.cs" />
+    <Compile Include="Migrations\201603310241541_FirstMigration.cs" />
+    <Compile Include="Migrations\201603310241541_FirstMigration.Designer.cs">
+      <DependentUpon>201603310241541_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201603310751429_ChangeFileDataSizeColumn.cs" />
+    <Compile Include="Migrations\201603310751429_ChangeFileDataSizeColumn.Designer.cs">
+      <DependentUpon>201603310751429_ChangeFileDataSizeColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +68,18 @@
       <Project>{775FEB5B-6E54-41D4-8EDE-40A766FBACCD}</Project>
       <Name>AppBootModels</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201603310241541_FirstMigration.resx">
+      <DependentUpon>201603310241541_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201603310751429_ChangeFileDataSizeColumn.resx">
+      <DependentUpon>201603310751429_ChangeFileDataSizeColumn.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
