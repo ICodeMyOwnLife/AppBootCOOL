@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBootCOOL", "AppBootCOOL\AppBootCOOL.csproj", "{1D21A50A-2626-41DF-B034-3FB07FED8492}"
 EndProject
@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBootViewModels", "AppBoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUpdaterCOOL", "AppUpdaterCOOL\AppUpdaterCOOL.csproj", "{01D15BE6-275A-41B5-BB3D-2C4D33BE80F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CB.Model.Common", "..\..\..\Libraries\DotNet\CB.Model\CB.Model.Common\CB.Model.Common.csproj", "{33A5DF99-1312-4023-A6EF-EABB9848F5A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CB.Model.Common", "..\..\Libraries\Dot Net\CB.Model\CB.Model.Common\CB.Model.Common.csproj", "{33A5DF99-1312-4023-A6EF-EABB9848F5A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

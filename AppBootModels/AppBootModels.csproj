@@ -63,7 +63,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Libraries\DotNet\CB.Model\CB.Model.Common\CB.Model.Common.csproj">
+    <ProjectReference Include="..\..\..\Libraries\Dot Net\CB.Model\CB.Model.Common\CB.Model.Common.csproj">
       <Project>{33a5df99-1312-4023-a6ef-eabb9848f5a6}</Project>
       <Name>CB.Model.Common</Name>
     </ProjectReference>
